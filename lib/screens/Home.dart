@@ -29,19 +29,21 @@ class Home extends StatelessWidget {
         ),
       ),
       // Container içerisine row veya column alır
-      body: Container(
-        child: SingleChildScrollView(
-          child: Column(
-            children: const [
-              NewsItem(),
-              NewsItem(),
-              NewsItem(),
-              NewsItem(),
-              NewsItem(),
-              NewsItem(),
-              NewsItem(),
-            ],
-          ),
+      body: SingleChildScrollView(
+        child: Column(
+          children: const [
+            NewsItem(),
+            NewsItem(),
+            NewsItem(),
+            NewsItem(),
+            NewsItem(),
+            NewsItem(),
+            NewsItem(),
+            NewsItem(),
+            NewsItem(),
+            NewsItem(),
+            NewsItem()
+          ],
         ),
       ),
     );
